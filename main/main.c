@@ -18,16 +18,15 @@
 #include "temp_sensor.h"
 #include "clearblade_connect.h"
 
-#define WIFI_SSID "Deconet"          // !!!!!!!!!!! Configurar
-#define WIFI_PASSWORD "0103371183xx" // !!!!!!!!!!! Configurar
+#define WIFI_SSID "nombre"          // !!!!!!!!!!! Configurar
+#define WIFI_PASSWORD "contrasena" // !!!!!!!!!!! Configurar
 #define CLEARBLADE_BROKER_URI "mqtts://us-central1-mqtt.clearblade.com"
 #define CLEARBLADE_PROJECT_ID "daiot-practica"
 #define CLEARBLADE_REGION "us-central1"
 #define CLEARBLADE_REGISTRY "registry_1"
 
 // Configurar CLEARBLADE_DEVICE_ID segun tu nombre
-#define CLEARBLADE_DEVICE_ID "device-1xx" // Ejemplo para Leopoldo: "device-101"
-// 101	Leopoldo
+#define CLEARBLADE_DEVICE_ID "device-111" // Es el número que me corresponde
 // 102	Matias
 // 103	Joaquin
 // 104	Macol
