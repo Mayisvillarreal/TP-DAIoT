@@ -4,6 +4,7 @@
  *  Created on: 14/9/2023
  *      Author: Leopoldo Zimperz
  *      Mail: leopoldo.a.zimperz@gmail.com
+ * Modified on: 24/06/2022 by María Claudia Villarreal
  */
 
 #include <stdio.h>
@@ -18,31 +19,19 @@
 #include "temp_sensor.h"
 #include "clearblade_connect.h"
 
-#define WIFI_SSID "nombre"          // !!!!!!!!!!! Configurar
-#define WIFI_PASSWORD "contrasena" // !!!!!!!!!!! Configurar
+#define WIFI_SSID "TPDAIOT"          // !!!!!!!!!!! Configurar
+#define WIFI_PASSWORD "tpdaiot1" // !!!!!!!!!!! Configurar
 #define CLEARBLADE_BROKER_URI "mqtts://us-central1-mqtt.clearblade.com"
-#define CLEARBLADE_PROJECT_ID "daiot-practica"
+#define CLEARBLADE_PROJECT_ID "tp-daiot"
 #define CLEARBLADE_REGION "us-central1"
 #define CLEARBLADE_REGISTRY "registry_1"
 
-// Configurar CLEARBLADE_DEVICE_ID segun tu nombre
-#define CLEARBLADE_DEVICE_ID "device-111" // Es el número que me corresponde
-// 102	Matias
-// 103	Joaquin
-// 104	Macol
-// 105	Cristian
-// 106	Jose
-// 107	Facundo
-// 108	Leandro
-// 109	Josselyn
-// 110	Juan
-// 111	María
-// 112	Ignacio
-// 113	Gonzalo
-// 114	Alejandro
-// 115	Jeanneth
-// 116	Zeus
-// 117	Luis
+// Configurar CLEARBLADE_DEVICE_ID segun el dispositivo
+#define CLEARBLADE_DEVICE_ID "device-001" // Es el número que me corresponde
+// 001	Equipo 1
+// 010	Equipo 2
+// 011	Equipo 3
+// 100	Equipo 4
 
 static const char *TAG = "Main section";
 
