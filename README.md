@@ -1,9 +1,1 @@
-Conexion a Clearblade (reemplazo de IoT-hub de GCP)
-
-Configurar en main.c:
-WIFI_SSID
-WIFI_PASS
-DEVICE-ID (tal como figuran en Clearblade)
-
-Ver tutorial detallado sobre creación del proyecto en Clearblade y GCP
-Tutorial_Clearblade_GCP_IoT.pdf
+Este repositorio se realizó a partir de https://github.com/lzimperz/DAIoT_WiFi_Clearblade_SensorSim_esp32, fue modificado de acuerdo con las credenciales y claves de mi propio proyecto de Google Cloud, también elaborado a partir del tutorial proporcionado en clase.
