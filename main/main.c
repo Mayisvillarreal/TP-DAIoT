@@ -27,7 +27,7 @@
 #define CLEARBLADE_REGISTRY "registry_1"
 
 // Configurar CLEARBLADE_DEVICE_ID segun el dispositivo
-#define CLEARBLADE_DEVICE_ID "device-001" // Es el número que me corresponde
+#define CLEARBLADE_DEVICE_ID "device-010" // Equipo 2
 // 001	Equipo 1
 // 010	Equipo 2
 // 011	Equipo 3
